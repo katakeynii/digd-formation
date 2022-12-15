@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:Formation}/db/formation-development.sqlite3",
+            "name": "formationn-development"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}

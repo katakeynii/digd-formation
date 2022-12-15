@@ -1,0 +1,3 @@
+class Lycee < Ecole
+
+end

@@ -1,0 +1,18 @@
+<p style="color: green"><%= notice %></p>
+<% page = "Accueil" %>
+
+<h1>Ecoles</h1>
+<%= ecoles_path %>
+<%= new_ecole_path %>
+<%= edit_ecole_path(2) %>
+<%= ecole_path(1) %>
+<div id="ecoles">
+  <% @ecoles.each do |ecole| %>
+    <%= render ecole %>
+    <p>
+      <%= link_to "Show this ecole", ecole %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New ecole", new_ecole_path %>

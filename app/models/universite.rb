@@ -1,0 +1,3 @@
+class Universite < Ecole
+    
+end
